@@ -10,6 +10,7 @@ import OtherInfo from './components/OtherInfo'
 function App() {
   return <HashRouter>
     <Routes>
+      <Route path="/" element={<AboutUs/>}></Route>
       <Route path="/about-us" element={<AboutUs/>}></Route>
       <Route path="/other-info" element={<OtherInfo/>}></Route>
     </Routes>
